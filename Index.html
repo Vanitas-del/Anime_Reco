@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anime Recommender</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Anime Recommender</h1>
+    <div id="anime-card" class="card hidden">
+      <img id="anime-image" alt="Anime Poster" />
+      <h2 id="anime-title"></h2>
+      <p id="anime-description"></p>
+      <div class="buttons">
+        <button onclick="markWatched()">Already Watched</button>
+        <button onclick="getRandomAnime()">Random Anime</button>
+      </div>
+    </div>
+    <p id="loading">Loading...</p>
+    <footer>Credit to Vanitas 👑</footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
