@@ -15,5 +15,5 @@ A simple anime recommendation website that fetches anime data from the [AniList 
 
 1. **Download or Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/anime-recommender.git
+   git clone https://github.com/Vanitas-del/anime-recommender.git
    
